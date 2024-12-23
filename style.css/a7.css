@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    margin-top: 0px;
+    background: linear-gradient(to right, rgb(60, 179, 113), rgb(70, 130, 180));
+
+    border-radius: 6px;
+    color: white;
+    /* لون النص */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* لإضافة ظل خفيف */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    margin-top: 15px;
+    margin-left: 4%;
+}
+
+h1 {
+    margin-left: 2%;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.e {
+    color: rgb(73, 141, 73);
+}
+
+#button {
+
+    background-color: rgb(60, 179, 113);
+    /* أخضر معتدل */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#button:hover {
+    background-color: rgb(34, 139, 34);
+    /* أخضر داكن */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    /* ظل جميل */
+    transform: scale(1.05);
+    /* تكبير خفيف */
+}
+
+nav ul li {
+    list-style-type: none;
+
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: .2s;
+}
+
+li a:hover {
+    background-color: #fff;
+    color: #0b0e0a;
+    border-radius: 15px;
+    padding: 7px;
+
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.first img {
+    float: right;
+    width: 500Px;
+    height: 500px;
+}
+
+.first p,
+h2,
+.first button {
+    position: relative;
+    top: 120px;
+}
+
+.first button {
+    background-color: rgb(60, 179, 113);
+    /* أخضر معتدل */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.first button:hover {
+    background-color: rgb(34, 139, 34);
+    /* أخضر داكن */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    /* ظل جميل */
+    transform: scale(1.05);
+    /* تكبير خفيف */
+}
+
+.second h3,
+p {
+    position: relative;
+    top: 230px;
+}
+
+.finally {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.finally h4,
+.finally img,
+.finally p {
+    position: relative;
+    top: 280px;
+}
+
+.finally img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.finally p {
+    text-align: justify;
+    color: #0b0e0a;
+    font-size: large;
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: #0b0e0a 2px 2px 2px 2px;
+}
+
+footer {
+    position: relative;
+    top: 360px;
+    background-color: rgb(20, 20, 20);
+    /* أسود خفيف */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+i {
+    position: relative;
+    top: 10px;
+    margin-left: 2%;
+}

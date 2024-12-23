@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Revolution&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #e7f7fc, #d5eaec);
+    height: 100vh;
+    display: flex;
+}
+
+
+form {
+    color: rgb(0, 0, 0);
+    width: 340px;
+    height: 440Px;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(20%);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(17, 17, 17, 0.1);
+    background: rgba(236, 248, 246, 0.9);
+    border: 2px solid #e8f8ff;
+    margin-left: 35%;
+    margin-top: 7%;
+}
+
+h1 {
+    text-align: center;
+   
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+}
+input{
+    background: transparent;
+    border: none;
+    border-bottom: #252525 solid 1px;
+    padding-left: 10px;
+    border-radius: 15px;
+    width: 300Px;
+}
+button a{
+    text-decoration: none;
+    color: #000000;
+    transition: .8s;
+    padding: 8px;
+}
+.button{
+    position: relative;
+    left: 30%;
+    background: transparent;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: #000000;
+}
+a:hover{
+    color: whit;
+}

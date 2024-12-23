@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Protest+Revolution&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@1,700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(135deg, #e7f7fc, #d5eaec);
+    height: 100vh;
+    display: flex;
+}
+
+
+form{
+    color: rgb(0, 0, 0);
+    width: 340px;
+    height: 540Px;
+    margin-left: 120%;
+    margin-top: 7%;
+    padding: 20px ;
+    border-radius: 10px;
+    backdrop-filter: blur(20%);
+    backdrop-filter: blur(10px); /* تأثير الضبابية */
+    box-shadow: 0 4px 6px rgba(17, 17, 17, 0.1); /* الظل */
+    background: rgba(236, 248, 246, 0.9);
+    border: 2px solid #e8f8ff;
+}
+h1{
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+}
+body, input, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+label{
+    text-align: center;
+    margin-left: 30%;
+    font-size: larger;
+    color: rgb(37, 37, 37);
+    font-family: 'Times New Roman', Times, serif;
+}
+ input , textarea{
+    border-radius: 20Px;
+    padding: 10px;
+    width: 280px;
+    background: transparent;
+    border: 1px gray solid;
+    padding: 0px;
+    color: #333;
+} 
+
+.button{
+    position: relative;
+    left: 33%;
+    padding: 4px;
+    width: 100px;
+    background: transparent;
+    border-radius: 20px;
+    transition: .8s;
+}
+.button:hover{
+    background-color: #000000;
+    color: white;
+}
+button a{
+    text-decoration: none;
+    color: #000000;
+    transition: .8s;
+}
+a:hover{
+    color: white;
+}
+input ,textarea{
+    padding: 2px 0px 0px 6px;
+}
+@media (max-width:700px) {
+    body{
+      display: block;
+    }
+    form{
+        margin-left: 10%;
+        margin-top: 1%; 
+    }
+}
+@media (min-width:700px) and (max-width:990px){
+    body{
+        display: block;
+    }
+    form{
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+}
